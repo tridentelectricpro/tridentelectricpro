@@ -1,0 +1,1017 @@
+<!-- ══ TRIDENT ELECTRIC PRO FOOTER ══ -->
+<!-- Drop-in fragment: no <html>/<body>, no JavaScript required -->
+<!-- Palette: #0B1F33 Navy · #0879E8 Electric Blue · #FFC400 Safety Yellow · #FFFFFF White · #E8EDF2 Cool Gray -->
+
+<style>
+  .tep-footer {
+    --tep-navy: #0B1F33;
+    --tep-blue: #0879E8;
+    --tep-yellow: #FFC400;
+    --tep-white: #FFFFFF;
+    --tep-gray: #E8EDF2;
+
+    background: var(--tep-navy);
+    color: var(--tep-white);
+
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", sans-serif;
+
+    font-size: 0.92rem;
+    line-height: 1.6;
+
+    border-top: 4px solid var(--tep-yellow);
+  }
+
+  /* Reset only inside footer */
+  .tep-footer *,
+  .tep-footer *::before,
+  .tep-footer *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tep-footer a {
+    color: var(--tep-white);
+    text-decoration: none;
+    transition:
+      color 0.2s ease,
+      background 0.2s ease;
+  }
+
+  .tep-footer a:hover {
+    color: var(--tep-yellow);
+  }
+
+  .tep-footer ul {
+    list-style: none;
+  }
+
+  /* ═════════════════════════════
+     CTA STRIP
+  ═════════════════════════════ */
+
+  .tep-footer-cta {
+    background:
+      linear-gradient(
+        135deg,
+        #0B1F33 0%,
+        #0879E8 100%
+      );
+
+    border-bottom: 1px solid rgba(255, 196, 0, 0.35);
+  }
+
+  .tep-footer-cta-in {
+    max-width: 1240px;
+    margin: 0 auto;
+
+    padding: 1.6rem 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+
+  .tep-footer-cta h2 {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+
+    font-weight: 800;
+
+    color: var(--tep-white);
+
+    line-height: 1.2;
+  }
+
+  .tep-footer-cta h2 em {
+    font-style: normal;
+    color: var(--tep-yellow);
+  }
+
+  .tep-footer-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.5rem;
+
+    background: var(--tep-yellow);
+    color: var(--tep-navy) !important;
+
+    font-weight: 800;
+
+    padding: 0.85rem 1.8rem;
+
+    border-radius: 5px;
+
+    box-shadow:
+      0 4px 20px rgba(255, 196, 0, 0.3);
+
+    transition:
+      background 0.2s ease,
+      transform 0.15s ease,
+      box-shadow 0.2s ease;
+
+    white-space: nowrap;
+  }
+
+  .tep-footer-btn:hover {
+    background: #FFD633;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+      0 8px 28px rgba(255, 196, 0, 0.45);
+  }
+
+  /* ═════════════════════════════
+     MAIN FOOTER GRID
+  ═════════════════════════════ */
+
+  .tep-footer-main {
+    max-width: 1240px;
+    margin: 0 auto;
+
+    padding: 3.2rem 1.5rem 2.4rem;
+
+    display: grid;
+
+    /*
+      Brand/contact + 3 state columns
+    */
+    grid-template-columns:
+      1.45fr
+      1fr
+      1fr
+      1fr;
+
+    gap: 2.4rem;
+  }
+
+  /* ═════════════════════════════
+     BRAND / CONTACT
+  ═════════════════════════════ */
+
+  .tep-brand-row {
+    display: flex;
+    align-items: center;
+
+    gap: 0.75rem;
+
+    margin-bottom: 1rem;
+  }
+
+  .tep-brand-row img {
+    height: 58px;
+    width: auto;
+
+    max-width: 245px;
+
+    display: block;
+    object-fit: contain;
+  }
+
+  .tep-brand-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tep-brand-text strong {
+    font-size: 1.2rem;
+    font-weight: 800;
+
+    color: var(--tep-white);
+
+    line-height: 1.1;
+  }
+
+  .tep-brand-text span {
+    color: var(--tep-yellow);
+
+    font-size: 0.7rem;
+    font-weight: 700;
+
+    letter-spacing: 0.14em;
+
+    text-transform: uppercase;
+
+    margin-top: 0.25rem;
+  }
+
+  .tep-tag {
+    color: var(--tep-gray);
+
+    font-size: 0.78rem;
+    font-weight: 600;
+
+    letter-spacing: 0.08em;
+
+    text-transform: uppercase;
+
+    margin-bottom: 1rem;
+  }
+
+  /* ═════════════════════════════
+     CONTACT DETAILS
+  ═════════════════════════════ */
+
+  .tep-contact li {
+    display: flex;
+
+    gap: 0.6rem;
+
+    margin-bottom: 0.65rem;
+
+    align-items: flex-start;
+  }
+
+  .tep-contact b {
+    color: var(--tep-yellow);
+
+    min-width: 4.5rem;
+
+    font-weight: 800;
+
+    font-size: 0.7rem;
+
+    letter-spacing: 0.1em;
+
+    text-transform: uppercase;
+
+    padding-top: 0.15rem;
+  }
+
+  .tep-phone {
+    font-weight: 800;
+    font-size: 1.05rem;
+  }
+
+  .tep-contact a:hover {
+    color: var(--tep-yellow);
+  }
+
+  .tep-address {
+    color: var(--tep-gray);
+  }
+
+  /* ═════════════════════════════
+     SECTION HEADINGS
+  ═════════════════════════════ */
+
+  .tep-footer h3 {
+    font-size: 1.05rem;
+
+    font-weight: 800;
+
+    color: var(--tep-yellow);
+
+    margin-bottom: 1rem;
+
+    padding-bottom: 0.6rem;
+
+    border-bottom:
+      1px solid rgba(232, 237, 242, 0.16);
+
+    position: relative;
+  }
+
+  .tep-footer h3::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -1px;
+
+    width: 38px;
+    height: 2px;
+
+    background: var(--tep-blue);
+  }
+
+  /* ═════════════════════════════
+     STATE / FOOTER LINKS
+  ═════════════════════════════ */
+
+  .tep-links li {
+    margin-bottom: 0.42rem;
+  }
+
+  .tep-links a {
+    display: inline-block;
+
+    padding: 0.04rem 0;
+
+    color: var(--tep-gray);
+  }
+
+  .tep-links a::before {
+    content: "›";
+
+    color: var(--tep-yellow);
+
+    margin-right: 0.5rem;
+
+    font-weight: 800;
+  }
+
+  .tep-links a:hover {
+    color: var(--tep-white);
+
+    transform: translateX(2px);
+  }
+
+  /* ═════════════════════════════
+     SOCIAL LINKS
+  ═════════════════════════════ */
+
+  .tep-social {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.5rem;
+
+    margin-top: 1.2rem;
+  }
+
+  .tep-social a {
+    border:
+      1px solid var(--tep-yellow);
+
+    padding: 0.4rem 0.85rem;
+
+    border-radius: 2rem;
+
+    font-size: 0.76rem;
+
+    font-weight: 700;
+
+    transition:
+      background 0.2s ease,
+      color 0.2s ease;
+  }
+
+  .tep-social a:hover {
+    background: var(--tep-yellow);
+
+    color: var(--tep-navy);
+  }
+
+  /* ═════════════════════════════
+     SERVICE / INFO BAR
+  ═════════════════════════════ */
+
+  .tep-footer-info {
+    border-top:
+      1px solid rgba(232, 237, 242, 0.12);
+
+    border-bottom:
+      1px solid rgba(232, 237, 242, 0.12);
+
+    background:
+      rgba(8, 121, 232, 0.12);
+  }
+
+  .tep-footer-info-in {
+    max-width: 1240px;
+    margin: 0 auto;
+
+    padding: 1.1rem 1.5rem;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.7rem 2rem;
+
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .tep-info-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 0.5rem;
+
+    font-size: 0.8rem;
+
+    color: var(--tep-gray);
+  }
+
+  .tep-info-icon {
+    color: var(--tep-yellow);
+
+    font-size: 1.05rem;
+
+    line-height: 1;
+  }
+
+  .tep-info-item strong {
+    color: var(--tep-white);
+
+    font-weight: 800;
+  }
+
+  /* ═════════════════════════════
+     BOTTOM BAR
+  ═════════════════════════════ */
+
+  .tep-footer-bottom {
+    max-width: 1240px;
+
+    margin: 0 auto;
+
+    padding:
+      1.3rem
+      1.5rem
+      calc(1.3rem + env(safe-area-inset-bottom, 0px));
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.6rem 1.5rem;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    font-size: 0.78rem;
+
+    color: rgba(232, 237, 242, 0.78);
+  }
+
+  .tep-footer-bottom a {
+    text-decoration: underline;
+
+    text-decoration-color:
+      rgba(255, 196, 0, 0.55);
+
+    text-underline-offset: 3px;
+  }
+
+  /* ═════════════════════════════
+     TABLET
+  ═════════════════════════════ */
+
+  @media (max-width: 980px) {
+
+    .tep-footer-main {
+      grid-template-columns: 1fr 1fr;
+
+      gap: 2.2rem 2rem;
+    }
+  }
+
+  /* ═════════════════════════════
+     MOBILE
+  ═════════════════════════════ */
+
+  @media (max-width: 600px) {
+
+    .tep-footer-main {
+      grid-template-columns: 1fr;
+
+      padding-top: 2.4rem;
+
+      gap: 2rem;
+    }
+
+    .tep-footer-cta-in {
+      flex-direction: column;
+
+      align-items: flex-start;
+    }
+
+    .tep-footer-btn {
+      width: 100%;
+
+      text-align: center;
+    }
+
+    .tep-footer-bottom {
+      flex-direction: column;
+
+      align-items: flex-start;
+    }
+
+    .tep-footer-info-in {
+      justify-content: flex-start;
+
+      gap: 0.75rem 1.25rem;
+    }
+  }
+</style>
+
+
+<footer
+  class="tep-footer"
+  role="contentinfo"
+>
+
+
+  <!-- ═════════════════════════════
+       CALL TO ACTION
+  ═════════════════════════════ -->
+
+  <div class="tep-footer-cta">
+
+    <div class="tep-footer-cta-in">
+
+      <h2>
+        Need electrical service?
+        <em>We're ready to help.</em>
+      </h2>
+
+      <a
+        class="tep-footer-btn"
+        href="tel:+18444430150"
+        aria-label="Call Trident Electric Pro at 844-443-0150"
+      >
+        &#9742; Call (844) 443-0150
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- ═════════════════════════════
+       MAIN FOOTER
+  ═════════════════════════════ -->
+
+  <div class="tep-footer-main">
+
+
+    <!-- ═════════════════════════════
+         BRAND + CONTACT
+    ═════════════════════════════ -->
+
+    <div>
+
+      <a
+        class="tep-brand-row"
+        href="/"
+        aria-label="Trident Electric Pro - Home"
+      >
+
+        <img
+          src="/images/trident-electric-pro-logo.webp"
+          alt="Trident Electric Pro logo"
+          width="245"
+          height="58"
+          loading="lazy"
+        />
+
+      </a>
+
+
+      <p class="tep-tag">
+        Professional Electrical Services
+      </p>
+
+
+      <ul class="tep-contact">
+
+        <!-- Phone -->
+        <li>
+
+          <b>Call</b>
+
+          <a
+            class="tep-phone"
+            href="tel:+18444430150"
+          >
+            (844) 443-0150
+          </a>
+
+        </li>
+
+
+        <!-- Email -->
+        <li>
+
+          <b>Email</b>
+
+          <a
+            href="mailto:tridentelectricpro@gmail.com"
+          >
+            tridentelectricpro@gmail.com
+          </a>
+
+        </li>
+
+
+        <!-- Address -->
+        <li>
+
+          <b>Visit</b>
+
+          <a
+            class="tep-address"
+            href="https://www.google.com/maps/search/?api=1&query=999+110th+Ave+NE%2C+Bellevue%2C+WA+98004"
+            target="_blank"
+            rel="noopener"
+          >
+            999 110th Ave NE<br />
+            Bellevue, WA 98004
+          </a>
+
+        </li>
+
+
+        <!-- Website -->
+        <li>
+
+          <b>Web</b>
+
+          <a
+            href="https://tridentelectricpro.com"
+            target="_blank"
+            rel="noopener"
+          >
+            tridentelectricpro.com
+          </a>
+
+        </li>
+
+
+      </ul>
+
+
+      <!-- Social links can be added later -->
+      <div class="tep-social">
+
+        <a href="/services/">Services</a>
+
+        <a href="/locations/">Locations</a>
+
+        <a href="/about/">About</a>
+
+        <a href="/contact/">Contact</a>
+
+      </div>
+
+    </div>
+
+
+    <!-- ═════════════════════════════
+         STATES 1
+    ═════════════════════════════ -->
+
+    <div>
+
+      <h3>Service Areas</h3>
+
+      <ul class="tep-links">
+
+        <li>
+          <a href="/locations/alabama/">Alabama</a>
+        </li>
+
+        <li>
+          <a href="/locations/arizona/">Arizona</a>
+        </li>
+
+        <li>
+          <a href="/locations/arkansas/">Arkansas</a>
+        </li>
+
+        <li>
+          <a href="/locations/california/">California</a>
+        </li>
+
+        <li>
+          <a href="/locations/colorado/">Colorado</a>
+        </li>
+
+        <li>
+          <a href="/locations/connecticut/">Connecticut</a>
+        </li>
+
+        <li>
+          <a href="/locations/delaware/">Delaware</a>
+        </li>
+
+        <li>
+          <a href="/locations/district-of-columbia/">District of Columbia</a>
+        </li>
+
+        <li>
+          <a href="/locations/florida/">Florida</a>
+        </li>
+
+        <li>
+          <a href="/locations/georgia/">Georgia</a>
+        </li>
+
+        <li>
+          <a href="/locations/hawaii/">Hawaii</a>
+        </li>
+
+        <li>
+          <a href="/locations/idaho/">Idaho</a>
+        </li>
+
+        <li>
+          <a href="/locations/illinois/">Illinois</a>
+        </li>
+
+        <li>
+          <a href="/locations/indiana/">Indiana</a>
+        </li>
+
+        <li>
+          <a href="/locations/iowa/">Iowa</a>
+        </li>
+
+        <li>
+          <a href="/locations/kansas/">Kansas</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- ═════════════════════════════
+         STATES 2
+    ═════════════════════════════ -->
+
+    <div>
+
+      <h3>More Service Areas</h3>
+
+      <ul class="tep-links">
+
+        <li>
+          <a href="/locations/kentucky/">Kentucky</a>
+        </li>
+
+        <li>
+          <a href="/locations/louisiana/">Louisiana</a>
+        </li>
+
+        <li>
+          <a href="/locations/maine/">Maine</a>
+        </li>
+
+        <li>
+          <a href="/locations/maryland/">Maryland</a>
+        </li>
+
+        <li>
+          <a href="/locations/massachusetts/">Massachusetts</a>
+        </li>
+
+        <li>
+          <a href="/locations/michigan/">Michigan</a>
+        </li>
+
+        <li>
+          <a href="/locations/minnesota/">Minnesota</a>
+        </li>
+
+        <li>
+          <a href="/locations/mississippi/">Mississippi</a>
+        </li>
+
+        <li>
+          <a href="/locations/missouri/">Missouri</a>
+        </li>
+
+        <li>
+          <a href="/locations/montana/">Montana</a>
+        </li>
+
+        <li>
+          <a href="/locations/nebraska/">Nebraska</a>
+        </li>
+
+        <li>
+          <a href="/locations/nevada/">Nevada</a>
+        </li>
+
+        <li>
+          <a href="/locations/new-hampshire/">New Hampshire</a>
+        </li>
+
+        <li>
+          <a href="/locations/new-jersey/">New Jersey</a>
+        </li>
+
+        <li>
+          <a href="/locations/new-mexico/">New Mexico</a>
+        </li>
+
+        <li>
+          <a href="/locations/new-york/">New York</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- ═════════════════════════════
+         STATES 3
+    ═════════════════════════════ -->
+
+    <div>
+
+      <h3>Additional Areas</h3>
+
+      <ul class="tep-links">
+
+        <li>
+          <a href="/locations/north-carolina/">North Carolina</a>
+        </li>
+
+        <li>
+          <a href="/locations/north-dakota/">North Dakota</a>
+        </li>
+
+        <li>
+          <a href="/locations/ohio/">Ohio</a>
+        </li>
+
+        <li>
+          <a href="/locations/oklahoma/">Oklahoma</a>
+        </li>
+
+        <li>
+          <a href="/locations/pennsylvania/">Pennsylvania</a>
+        </li>
+
+        <li>
+          <a href="/locations/rhode-island/">Rhode Island</a>
+        </li>
+
+        <li>
+          <a href="/locations/south-carolina/">South Carolina</a>
+        </li>
+
+        <li>
+          <a href="/locations/tennessee/">Tennessee</a>
+        </li>
+
+        <li>
+          <a href="/locations/texas/">Texas</a>
+        </li>
+
+        <li>
+          <a href="/locations/utah/">Utah</a>
+        </li>
+
+        <li>
+          <a href="/locations/virginia/">Virginia</a>
+        </li>
+
+        <li>
+          <a href="/locations/washington/">Washington</a>
+        </li>
+
+        <li>
+          <a href="/locations/west-virginia/">West Virginia</a>
+        </li>
+
+        <li>
+          <a href="/locations/wisconsin/">Wisconsin</a>
+        </li>
+
+        <li>
+          <a href="/locations/wyoming/">Wyoming</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+  </div>
+
+
+  <!-- ═════════════════════════════
+       INFORMATION BAR
+  ═════════════════════════════ -->
+
+  <div class="tep-footer-info">
+
+    <div class="tep-footer-info-in">
+
+      <div class="tep-info-item">
+
+        <span
+          class="tep-info-icon"
+          aria-hidden="true"
+        >
+          ⚡
+        </span>
+
+        <span>
+          <strong>Electrical Services</strong>
+          · Repairs &amp; Installations
+        </span>
+
+      </div>
+
+
+      <div class="tep-info-item">
+
+        <span
+          class="tep-info-icon"
+          aria-hidden="true"
+        >
+          🏠
+        </span>
+
+        <span>
+          <strong>Residential</strong>
+          · New Homes &amp; Remodeling
+        </span>
+
+      </div>
+
+
+      <div class="tep-info-item">
+
+        <span
+          class="tep-info-icon"
+          aria-hidden="true"
+        >
+          🏢
+        </span>
+
+        <span>
+          <strong>Commercial</strong>
+          · Electrical Services
+        </span>
+
+      </div>
+
+
+      <div class="tep-info-item">
+
+        <span
+          class="tep-info-icon"
+          aria-hidden="true"
+        >
+          📍
+        </span>
+
+        <span>
+          <strong>Service Areas</strong>
+          · Multiple States
+        </span>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+  <!-- ═════════════════════════════
+       BOTTOM BAR
+  ═════════════════════════════ -->
+
+  <div class="tep-footer-bottom">
+
+    <span>
+      &copy; 2026 Trident Electric Pro.
+      All rights reserved.
+    </span>
+
+
+    <span>
+
+      <a href="https://tridentelectricpro.com">
+        tridentelectricpro.com
+      </a>
+
+      &nbsp;·&nbsp;
+
+      <a href="/privacy-policy/">
+        Privacy Policy
+      </a>
+
+      &nbsp;·&nbsp;
+
+      <a href="/terms-of-service/">
+        Terms of Service
+      </a>
+
+    </span>
+
+  </div>
+
+
+</footer>
