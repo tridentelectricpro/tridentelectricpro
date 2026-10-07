@@ -3,49 +3,48 @@
 > Trident Electric is a residential and commercial electrical contractor providing electrical repairs, installations, wiring, panel upgrades, lighting, EV charger installation, generators, surge protection, smart home electrical services, heater electrical work, new construction, remodeling, pool and hot tub electrical services, commercial electrical services, and multifamily electrical services.
 
 ## Business
+
 - Business Name: Trident Electric
 - Brand Name: Trident Electric Pro
-- Website: https://tridentelectricpro.com/
-- Phone: (855) 599-0507
-- Email: tridentelectricpro@gmail.com
+- Website: [tridentelectricpro.com](https://tridentelectricpro.com/)
+- Phone: [(855) 599-0507](tel:+18555990507)
+- Email: [tridentelectricpro@gmail.com](mailto:tridentelectricpro@gmail.com)
 - Address: 999 110th Ave NE, Bellevue, WA 98004
 - Founder: Jennifer Diana
 - Serving Since: November 11, 2011
 
 ## Primary Pages
-- Home: https://tridentelectricpro.com/
-- About: https://tridentelectricpro.com/about/
-- Services: https://tridentelectricpro.com/services/
-- Locations: https://tridentelectricpro.com/locations/
-- Contact: https://tridentelectricpro.com/contact/
+
+- [Home](https://tridentelectricpro.com/): Trident Electric Pro homepage
+- [About](https://tridentelectricpro.com/about/): Company background and founder
+- [Services](https://tridentelectricpro.com/services/): Full list of electrical services
+- [Locations](https://tridentelectricpro.com/locations/): Service areas by state and city
+- [Contact](https://tridentelectricpro.com/contact/): Phone, email, and request form
 
 ## Services
-- Electrical Repairs: https://tridentelectricpro.com/services/electrical-repairs/
-- Electrical Installation: https://tridentelectricpro.com/services/electrical-installation/
-- Electrical Panel Upgrades: https://tridentelectricpro.com/services/electrical-panel-upgrades/
-- Electrical Wiring & Rewiring: https://tridentelectricpro.com/services/electrical-wiring/
-- Lighting & Electrical Fixtures: https://tridentelectricpro.com/services/lighting-electrical-fixtures/
-- Switches & Outlets: https://tridentelectricpro.com/services/switches-outlets/
-- Baseboard & Wall Heater Electrical: https://tridentelectricpro.com/services/baseboard-wall-heaters/
-- EV Charger Installation: https://tridentelectricpro.com/services/ev-charger-installation/
-- Generator & Backup Power: https://tridentelectricpro.com/services/generator-services/
-- Surge Protection: https://tridentelectricpro.com/services/surge-protection/
-- Smart Home Electrical: https://tridentelectricpro.com/services/smart-home-electrical/
-- Pool & Hot Tub Electrical: https://tridentelectricpro.com/services/pool-hot-tub-electrical/
-- New Home Electrical: https://tridentelectricpro.com/services/new-home-electrical/
-- Home Addition Electrical: https://tridentelectricpro.com/services/home-addition-electrical/
-- Remodeling Electrical: https://tridentelectricpro.com/services/remodeling-electrical/
-- Commercial Electrical: https://tridentelectricpro.com/services/commercial-electrical/
-- Multifamily Electrical: https://tridentelectricpro.com/services/multifamily-electrical/
+
+- [Electrical Repairs](https://tridentelectricpro.com/services/electrical-repairs/): Troubleshooting and repair
+- [Electrical Installation](https://tridentelectricpro.com/services/electrical-installation/): New electrical installations
+- [Electrical Panel Upgrades](https://tridentelectricpro.com/services/electrical-panel-upgrades/): Panel and service upgrades
+- [Electrical Wiring & Rewiring](https://tridentelectricpro.com/services/electrical-wiring/): Wiring and rewiring
+- [Lighting & Electrical Fixtures](https://tridentelectricpro.com/services/lighting-electrical-fixtures/): Lighting and fixture installation
+- [Switches & Outlets](https://tridentelectricpro.com/services/switches-outlets/): Switch and outlet repair and installation
+- [Baseboard & Wall Heater Electrical](https://tridentelectricpro.com/services/baseboard-wall-heaters/): Electrical work for electric heaters
+- [EV Charger Installation](https://tridentelectricpro.com/services/ev-charger-installation/): Home and commercial EV charging
+- [Generator & Backup Power](https://tridentelectricpro.com/services/generator-services/): Generator and backup power systems
+- [Surge Protection](https://tridentelectricpro.com/services/surge-protection/): Whole-home surge protection
+- [Smart Home Electrical](https://tridentelectricpro.com/services/smart-home-electrical/): Smart home electrical services
+- [Pool & Hot Tub Electrical](https://tridentelectricpro.com/services/pool-hot-tub-electrical/): Pool and hot tub electrical work
+- [New Home Electrical](https://tridentelectricpro.com/services/new-home-electrical/): New construction electrical
+- [Home Addition Electrical](https://tridentelectricpro.com/services/home-addition-electrical/): Electrical for home additions
+- [Remodeling Electrical](https://tridentelectricpro.com/services/remodeling-electrical/): Electrical for remodels
+- [Commercial Electrical](https://tridentelectricpro.com/services/commercial-electrical/): Commercial electrical services
+- [Multifamily Electrical](https://tridentelectricpro.com/services/multifamily-electrical/): Multifamily property electrical services
 
 ## Service Areas
-The complete state and city URL inventory is provided in the XML sitemap:
-https://tridentelectricpro.com/sitemap.xml
 
-## Contact
-- Phone: (855) 599-0507
-- Email: tridentelectricpro@gmail.com
-- Address: 999 110th Ave NE, Bellevue, WA 98004
+- [XML Sitemap](https://tridentelectricpro.com/sitemap.xml): Complete state and city URL inventory
 
 ## Focus
+
 Trident Electric focuses on electrical contracting services rather than HVAC services.
