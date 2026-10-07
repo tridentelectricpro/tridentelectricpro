@@ -18,12 +18,13 @@
 .header-call span{font-size:11px;text-transform:uppercase;letter-spacing:.08em;opacity:.92}
 .header-call strong{font-size:16px;white-space:nowrap}
 .nav-toggle,.nav-toggle-label{display:none}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:950px){.main-nav{gap:14px}.header-call{display:none}}
 @media(max-width:720px){
   :root{--header-h:60px}
   .brand img{height:46px}
   .nav-toggle-label{display:flex;flex-direction:column;gap:5px;cursor:pointer}
-  .nav-toggle-label span{width:27px;height:3px;background:#fff;border-radius:3px}
+  .nav-toggle-label .bar{display:block;width:27px;height:3px;background:#fff;border-radius:3px}
   .main-nav{position:absolute;left:0;right:0;top:60px;background:var(--navy);display:none;flex-direction:column;align-items:flex-start;padding:18px 22px;border-top:1px solid rgba(255,255,255,.1)}
   .nav-toggle:checked~.main-nav{display:flex}
 }
@@ -34,7 +35,7 @@
       <img src="/images/trident-electric-pro-logo.webp" alt="Trident Electric Pro logo" width="54" height="54" fetchpriority="high">
     </a>
     <input class="nav-toggle" type="checkbox" id="nav-toggle">
-    <label class="nav-toggle-label" for="nav-toggle" aria-label="Open navigation"><span></span><span></span><span></span></label>
+    <label class="nav-toggle-label" for="nav-toggle"><span class="sr-only">Open navigation</span><span class="bar"></span><span class="bar"></span><span class="bar"></span></label>
     <nav class="main-nav" aria-label="Primary navigation">
       <a href="/">Trident Electric</a>
       <a href="/services/">Services</a>
