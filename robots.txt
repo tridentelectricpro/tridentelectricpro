@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /header.html
+Disallow: /footer.html
 
 Sitemap: https://tridentelectricpro.com/sitemap.xml
